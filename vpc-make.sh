@@ -26,7 +26,7 @@ do
 done
 
 if [ "$NAME" = "unset" ] || [ "$CIDR" = "unset" ]; then
-  echo "Error: Both --name and ---cidr are required." >&2
+  echo "Error: Both --name and --cidr are required." >&2
   usage
 fi
 
